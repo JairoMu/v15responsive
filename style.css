@@ -1,0 +1,139 @@
+body{
+    background-color:rgb(37, 93, 148);
+    font-size: large;
+}
+h1{
+    font-family: sans-serif;
+    width: 300px;
+}
+.imagen{
+    position: relative;
+    top: -220px;
+    left: -325px;
+    width: 15%;
+    height:auto;    
+    border-radius: 76.7142px;
+    transform: rotate(-0.44deg);
+}
+.titulo {
+position: relative;
+text-align: center;
+width:99% ;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+}
+.h3{
+    position: relative;
+    text-align: center;
+    padding-left:-150px ;
+    font-family: 'Lora';
+    font-style: normal;
+    font-size: 20px;
+}
+.contenedor{
+    width:100%;
+    background-color:rgb(22, 154, 240 ) ;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.Links{
+    position: relative;
+    display: block;
+    color: white;
+    background-color: black;
+    top: -325px;
+    text-decoration:none;   
+    float: left;
+    padding: 10px 90px;
+    font-size: 20px;
+    border-radius: 42px;
+}
+.contenedor2{
+    background-color:rgb(239, 241, 243);
+    border-radius: 45px;
+    position: relative;
+
+    top:100px;
+    padding-left:450px;
+    height: 325px;
+}
+.hab{
+   position: relative;
+   top:25px;
+}
+.hab1{
+   position: relative;
+   top: 30px;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .titulo {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .contenedor2 {
+      margin-top: 30px;
+      padding: 15px;
+      height: auto;
+    }
+  
+    .hab {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .hab1 {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .imagen {
+      display: block;
+      margin: 0 auto;
+      top:29px;
+      left: 3px;
+      width: 210px;
+      height:210px;
+      border-radius: 50%;
+      transform: none;
+      margin-bottom: 20px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+      }
+      
+      li {
+        width: 40%;
+        margin-bottom: 10px;
+      }
+      
+      .Links {
+        height: auto;
+        padding: 8px 30px;
+        font-size: 10px;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        top: -575px;
+        right:45px;
+      }
+  }

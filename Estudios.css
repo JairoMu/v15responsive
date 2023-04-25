@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(37, 93, 148);
+    font-size: large;
+}
+.secundario{
+    position: relative;
+    top: 10px;
+    left: 4px;
+    width:800px;
+    height: 2px;
+    padding-left: 65px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.link{
+    position: relative;
+    display: block;
+    color: white;
+    background-color: black;
+    top: -350px;
+    left: 10px;
+    text-decoration:none;   
+    float: left;
+    padding: 10px 90px;
+    border-radius: 42px;
+    transform:rotate(4);
+}
+.l2{
+    position: relative;
+    top: 125px;
+    left: 4px;
+    width:800px;
+    height: 2px;
+    padding-left: 65px;
+}
+.i1{
+    position: relative;
+    top: 18px;
+    left: 4px;
+    width:800px;
+    height: 2px;
+    padding-left: 65px;
+}
+.l3{
+    position: relative;
+    top: 2px;
+    left: 4px;
+    width:800px;
+    height: 2px;
+    padding-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight: 650px;
+    font-size: 21px;
+
+}
+.l4{
+    position: relative;
+    top: 40px;
+    left: 4px;
+    width:800px;
+    height: 2px;
+    padding-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight: 650px;
+    font-size: 21px;
+}
+.contenedor{
+    width:100%;
+    background-color:rgb(22, 154, 240 ) ;
+    font-size: 25px;
+}
+.titulo{
+    position: relative;
+    text-align: center;
+    width:99%;
+}
+.sub{
+    position: relative;
+    text-align: center;
+    width:99%;
+}
+.contenedor2{
+    position: relative;
+    background-color: rgb(239, 241, 243);
+    border-radius: 45px;
+    top:80px;
+    height:315px ;
+}
